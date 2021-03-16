@@ -31,7 +31,6 @@
         "sections": [
             {
                 "type": "footer_text",
-                "image": "images/robust-yam.png",
                 "image_url": "/",
                 "image_alt": "Ultimate Infoways",
                 "content": "Stackbit theme demo"
