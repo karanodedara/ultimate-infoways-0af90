@@ -6,6 +6,7 @@ module.exports = {
     plugins: [
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
+        `gatsby-plugin-offline`,
         `gatsby-transformer-remark`,
         {
             resolve: `gatsby-source-filesystem`,
@@ -28,6 +29,17 @@ module.exports = {
                 sourceUrlPath: `fields.url`,
                 pageContextProperty: `menus`,
             }
-        }
+        },
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: `GatsbyJS`,
+                short_name: `GatsbyJS`,
+                start_url: `/`,
+                background_color: `#f7f0eb`,
+                theme_color: `#a2466c`,
+                display: `standalone`,
+           },
+        },
     ]
 };
