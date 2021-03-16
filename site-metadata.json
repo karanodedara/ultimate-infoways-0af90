@@ -33,7 +33,8 @@
                 "type": "footer_text",
                 "image_url": "/",
                 "image_alt": "Ultimate Infoways",
-                "content": "Stackbit theme demo"
+                "content": "Stackbit theme demo",
+                "title": "Ultimate infoways"
             },
             {
                 "type": "footer_nav",
